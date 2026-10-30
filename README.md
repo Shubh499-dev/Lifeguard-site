@@ -1,121 +1,255 @@
-<div align="center"><img src="https://img.shields.io/badge/LIFEGUARD-SMART%20LIFE%20ORGANIZER-2878FF?style=for-the-badge&logo=android&logoColor=white">🛡️ LifeGuard – Smart Life Organizer
+<div align="center">🛡️ LIFEGUARD
 
-<p><strong>Your Everyday Companion for Reminders, Warranty Tracking & Better Organization.</strong></p><p><strong>Stay Organized • Track Important Details • Never Miss Important Dates</strong></p><img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white">
-<img src="https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square">
-<img src="https://img.shields.io/badge/Price-Free-brightgreen?style=flat-square"></div>---
+SMART LIFE ORGANIZER
 
-<div align="center"><p><strong>📱 ABOUT LIFEGUARD</strong></p></div>LifeGuard – Smart Life Organizer is a simple, useful, and easy-to-use Android application designed to help you manage your everyday information, track important dates, and stay organized.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-In our daily lives, we often forget important things such as product warranty expiry dates, purchase details, bills, reminders, and recurring activities. Keeping track of all these things manually can become difficult.
+✨ Organize Your Life. Never Miss What Matters!
 
-LifeGuard brings useful tracking and reminder tools together in one convenient application, helping you organize important information and access it whenever you need it.
+Your Everyday Companion for Smart Tracking, Reminders & Organization.
 
-Whether you want to manage product warranty details, remember important dates, track recurring activities, or maintain useful records, LifeGuard makes everyday organization simpler and more convenient.
+A simple and convenient way to manage your product warranties, bills, expiry dates and important activities — all in one place.
 
-Our goal is to provide a simple, practical, and user-friendly experience that helps users stay organized and prepared.
+<br><a href="https://github.com/Shubh499-dev/Lifeguard-site/releases/download/v1.0.0/app-release.apk">
+<strong>📥 DOWNLOAD APK</strong>
+</a>   |   
 
----
+<a href="https://indusapp.store/7lytituh">
+<strong>🏪 INDUS APPSTORE</strong>
+</a><br><br>
 
-<div align="center"><p><strong>✨ KEY FEATURES</strong></p></div>🛡️ 1. Warranty & Bill Management
-
-Keep your product purchase and warranty information organized in one place.
-
-- Save product details for future reference.
-- Record purchase dates and warranty information.
-- Track warranty periods of your products.
-- Manage important bill and purchase records.
-- Check warranty expiry information whenever needed.
-
-📅 2. Expiry Date Tracking
-
-Stay informed about important expiry dates.
-
-- Organize important dates in one place.
-- Track upcoming warranty expiry dates.
-- Review saved product information easily.
-- Keep important deadlines in mind.
-
-🔔 3. Smart Reminders
-
-Make remembering important tasks and dates easier.
-
-- Keep track of important reminders and activities.
-- Stay aware of upcoming responsibilities.
-- Reduce the chances of forgetting important dates.
-- Manage everyday reminders conveniently.
-
-🔄 4. Last Done Tracking
-
-Maintain records of your recurring activities.
-
-- Record completed activities for future reference.
-- Track when an activity was last performed.
-- Maintain useful activity records.
-- Make recurring task tracking easier.
-
-🎨 5. Simple & User-Friendly Interface
-
-Enjoy a clean and convenient application experience.
-
-- Simple and organized layout.
-- Easy-to-understand navigation.
-- Convenient access to essential tools.
-- Designed for everyday usability.
-
----
-
-<div align="center"><p><strong>📸 APP SCREENSHOTS</strong></p><p><strong>Explore the LifeGuard application interface and its useful features.</strong></p></div><div align="center">Home Screen| Warranty Tracker| Reminder Section
-<img src="screenshots/screenshot1.png" width="220" alt="LifeGuard Home Screen">| <img src="screenshots/screenshot2.png" width="220" alt="Warranty Tracker">| <img src="screenshots/screenshot3.png" width="220" alt="Reminder Section">
+🔵 ANDROID APP   •   🛡️ SMART ORGANIZATION   •   ✨ EASY TO USE
 
 </div>---
 
-<div align="center"><p><strong>📥 DOWNLOAD LIFEGUARD</strong></p><p><strong>LifeGuard is officially published on PhonePe Appstore (formerly Indus Appstore).</strong></p><p><strong>You can also download the APK directly from our GitHub Release.</strong></p><br><p><strong>OPTION 1 — DIRECT APK DOWNLOAD</strong></p><p>Download the Android APK directly from GitHub.</p><a href="https://github.com/Shubh499-dev/Lifeguard-site/releases/download/v1.0.0/app-release.apk">
-<img src="https://img.shields.io/badge/⬇%20DOWNLOAD%20APK-DIRECT%20FROM%20GITHUB-1976D2?style=for-the-badge&logo=github&logoColor=white" alt="Download LifeGuard APK from GitHub">
-</a><br><br><br>
+<div align="center">🌟 WELCOME TO LIFEGUARD
 
-<p><strong>OPTION 2 — PHONEPE APPSTORE</strong></p><p><strong>Find LifeGuard on the PhonePe Appstore (formerly Indus Appstore) and download it from the app marketplace.</strong></p><a href="https://indusapp.store/7lytituh">
-<img src="https://img.shields.io/badge/AVAILABLE%20ON-PHONEPE%20APPSTORE%20%7C%20INDUS-16A05A?style=for-the-badge&logo=android&logoColor=white" alt="Get LifeGuard on PhonePe Appstore">
+One App. Multiple Useful Tracking Tools.
+
+</div>LifeGuard – Smart Life Organizer is designed to make your everyday life easier, more organized and more convenient.
+
+Do you sometimes forget your product warranty dates? Have difficulty remembering expiry dates? Or want to keep your important product and activity records organized?
+
+LifeGuard helps you manage these everyday needs through one simple application.
+
+From warranty and bill management to expiry tracking and smart reminders, LifeGuard brings useful organizational tools together in one convenient place.
+
+Less confusion. Better organization. More control over important information.
+
+---
+
+<div align="center">💎 EXPLORE THE FEATURES
+
+Everything important, organized in one place.
+
+</div><table>
+<tr>
+<td width="50%" valign="top">🛡️ WARRANTY MANAGEMENT
+
+Keep your product warranty information organized.
+
+- Save product details.
+- Track purchase dates.
+- Manage warranty periods.
+- Maintain warranty-related records.
+
+</td>
+<td width="50%" valign="top">🧾 BILL MANAGEMENT
+
+Keep important purchase and bill information together.
+
+- Organize bill-related records.
+- Keep purchase information accessible.
+- Manage product details conveniently.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">📅 EXPIRY TRACKING
+
+Stay aware of important expiry dates.
+
+- Maintain expiry records.
+- Check upcoming expiry dates.
+- Organize important date information.
+
+</td>
+<td width="50%" valign="top">🔔 SMART REMINDERS
+
+Keep track of important upcoming activities.
+
+- Manage important reminders.
+- Stay informed about upcoming dates.
+- Make everyday tracking easier.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">🔄 LAST DONE TRACKING
+
+Remember when you last completed an activity.
+
+- Maintain previous activity records.
+- Track last completed dates.
+- Keep useful information organized.
+
+</td>
+<td width="50%" valign="top">🎨 SIMPLE USER INTERFACE
+
+Enjoy a clean and convenient experience.
+
+- Easy-to-understand layout.
+- Organized application sections.
+- Convenient navigation.
+- Designed for everyday users.
+
+</td>
+</tr>
+</table>---
+
+<div align="center">📸 EXPLORE THE APP
+
+A Closer Look at LifeGuard
+
+Discover the interface and explore the different features of the application.
+
+</div><table>
+<tr>
+<td align="center" width="25%">
+<img src="screenshots/home-screen.png" width="170"><br><br>
+<strong>01. Home Screen</strong>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/warranty-management.png" width="170"><br><br>
+<strong>02. Warranty Management</strong>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/bill-tracking.png" width="170"><br><br>
+<strong>03. Bill Tracking</strong>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/product-details.png" width="170"><br><br>
+<strong>04. Product Details</strong>
+</td>
+</tr>
+<tr>
+<td align="center" width="25%">
+<img src="screenshots/expiry-tracking.png" width="170"><br><br>
+<strong>05. Expiry Tracking</strong>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/smart-reminders.png" width="170"><br><br>
+<strong>06. Smart Reminders</strong>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/last-done.png" width="170"><br><br>
+<strong>07. Last Done Tracking</strong>
+</td>
+<td align="center" width="25%">
+<img src="screenshots/app-interface.png" width="170"><br><br>
+<strong>08. App Interface</strong>
+</td>
+</tr>
+</table>---
+
+<div align="center">🚀 GET LIFEGUARD TODAY!
+
+Start Organizing Your Important Information.
+
+Choose your preferred platform to download the application.
+
+</div><table>
+<tr>
+<td align="center" width="50%">📱 GITHUB APK
+
+Download the Android APK directly from GitHub Releases.
+
+<br><a href="https://github.com/Shubh499-dev/Lifeguard-site/releases/download/v1.0.0/app-release.apk"><strong>⬇️ DOWNLOAD APK</strong>
+
 </a><br><br>
 
-<p><strong>Choose your preferred download method and start organizing your everyday life!</strong></p><p>💙 Free to Download • Android Application • Easy to Use</p></div>---
+Version: 1.0.0
 
-<div align="center"><p><strong>📋 APP INFORMATION</strong></p></div>Details| Information
-App Name| LifeGuard – Smart Life Organizer
-Platform| Android
+</td>
+<td align="center" width="50%">🏪 INDUS APPSTORE
+
+Get LifeGuard from the Indus Appstore.
+
+<br><a href="https://indusapp.store/7lytituh"><strong>📲 DOWNLOAD FROM INDUS</strong>
+
+</a><br><br>
+
+Discover LifeGuard on Appstore.
+
+</td>
+</tr>
+</table>---
+
+<div align="center">📋 APPLICATION DETAILS
+
+Know more about the LifeGuard application.
+
+</div>App Information| Details
+Application Name| LifeGuard – Smart Life Organizer
 Package Name| "com.shubh.lifeguard"
-Version| 1.0.0
+Version| "1.0.0"
+Platform| Android
 Category| Productivity / Utilities
-Price| Free
+Developer| Shubh499-dev
 Advertisement| Google AdMob
-Firebase| Not Included
-Distribution| GitHub & PhonePe Appstore
 
 ---
 
-<div align="center"><p><strong>📲 HOW TO INSTALL</strong></p></div>Follow these simple steps to install LifeGuard on your Android device.
+<div align="center">📲 HOW TO INSTALL
 
-Step 1: Choose your preferred download option: GitHub Direct Download or PhonePe Appstore.
+Get started with LifeGuard in a few simple steps.
 
-Step 2: If downloading from GitHub, wait for the APK file to finish downloading.
+</div>STEP 01 — Download
 
-Step 3: Open the downloaded "app-release.apk" file.
+Download the APK file using the GitHub download button.
 
-Step 4: If Android asks for permission, allow installation from that source in your device settings.
+STEP 02 — Open APK
 
-Step 5: Tap Install and wait for the installation to complete.
+Locate and open the downloaded APK file on your Android device.
 
-Step 6: Open LifeGuard – Smart Life Organizer and start using its useful features.
+STEP 03 — Allow Permission
+
+If Android asks for permission, allow installation from that source.
+
+STEP 04 — Install
+
+Tap the Install button and wait for installation to complete.
+
+STEP 05 — Start Using
+
+Open LifeGuard – Smart Life Organizer and start organizing your important information!
 
 ---
 
-<div align="center"><p><strong>🔒 PRIVACY & SECURITY</strong></p></div>Your privacy is important to us. We encourage every user to read our Privacy Policy to understand the application's privacy practices and information about advertising.
+<div align="center">🔐 PRIVACY & SECURITY
 
-Read the complete Privacy Policy here:
+Your Privacy Matters!
 
-<div align="center"><a href="https://digitalcashcounterprivacypolicy.blogspot.com/2026/09/privacy-policy.html"><strong>🔗 READ LIFEGUARD PRIVACY POLICY</strong>
+We believe users should be able to understand how an application handles their information.
+
+For complete details about LifeGuard's privacy practices and information handling, please read our Privacy Policy.
+
+<br><a href="https://digitalcashcounterprivacypolicy.blogspot.com/2026/09/privacy-policy.html"><strong>📄 VIEW PRIVACY POLICY</strong>
 
 </a></div>---
 
-<div align="center"><p><strong>💙 THANK YOU FOR CHOOSING LIFEGUARD!</strong></p><p><strong>Stay Organized. Stay Prepared. Make Every Important Date Count.</strong></p><p>Made with ❤️ for a more organized everyday life.</p><strong>🛡️ LifeGuard – Smart Life Organizer</strong>
+<div align="center">❤️ THANK YOU FOR CHOOSING LIFEGUARD!
+
+Make every important date count.
+
+Organize your records, track what matters and make everyday life easier with LifeGuard – Smart Life Organizer.
+
+<br>DEVELOPED WITH ❤️ BY SHUBH499-DEV
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🛡️ LIFEGUARD
+
+STAY ORGANIZED • STAY INFORMED • STAY AHEAD
 
 </div>
