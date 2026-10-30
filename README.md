@@ -124,7 +124,7 @@ Discover the interface and explore the different features of the application.
 <strong>02. Warranty Management</strong>
 </td>
 <td align="center" width="25%">
-<img src="screenshots/billapplicatio.jpg" width="170"><br><br>
+<img src="screenshots/billapplicatiojpg" width="170"><br><br>
 <strong>03. Bill Tracking</strong>
 </td>
 <td align="center" width="25%">
