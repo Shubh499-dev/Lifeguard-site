@@ -116,37 +116,37 @@ Discover the interface and explore the different features of the application.
 </div><table>
 <tr>
 <td align="center" width="25%">
-<img src="screenshots/home-screen.png" width="170"><br><br>
+<img src="screenshots/home-screen.jpg" width="170"><br><br>
 <strong>01. Home Screen</strong>
 </td>
 <td align="center" width="25%">
-<img src="screenshots/warranty-management.png" width="170"><br><br>
+<img src="screenshots/warranty-management.jpg" width="170"><br><br>
 <strong>02. Warranty Management</strong>
 </td>
 <td align="center" width="25%">
-<img src="screenshots/bill-tracking.png" width="170"><br><br>
+<img src="screenshots/billapplicatio.jpg" width="170"><br><br>
 <strong>03. Bill Tracking</strong>
 </td>
 <td align="center" width="25%">
-<img src="screenshots/product-details.png" width="170"><br><br>
+<img src="screenshots/product-details.jpg" width="170"><br><br>
 <strong>04. Product Details</strong>
 </td>
 </tr>
 <tr>
 <td align="center" width="25%">
-<img src="screenshots/expiry-tracking.png" width="170"><br><br>
+<img src="screenshots/expiry-tracking.jpg" width="170"><br><br>
 <strong>05. Expiry Tracking</strong>
 </td>
 <td align="center" width="25%">
-<img src="screenshots/smart-reminders.png" width="170"><br><br>
+<img src="screenshots/smart-reminders.jpg" width="170"><br><br>
 <strong>06. Smart Reminders</strong>
 </td>
 <td align="center" width="25%">
-<img src="screenshots/last-done.png" width="170"><br><br>
+<img src="screenshots/last-done.jpg" width="170"><br><br>
 <strong>07. Last Done Tracking</strong>
 </td>
 <td align="center" width="25%">
-<img src="screenshots/app-interface.png" width="170"><br><br>
+<img src="screenshots/app-interface.jpg" width="170"><br><br>
 <strong>08. App Interface</strong>
 </td>
 </tr>
