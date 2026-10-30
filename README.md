@@ -10,7 +10,7 @@ Your Everyday Companion for Smart Tracking, Reminders & Organization.
 
 A simple and convenient way to manage your product warranties, bills, expiry dates and important activities — all in one place.
 
-<br><a href="https://github.com/Shubh499-dev/Lifeguard-site/releases/download/v1.0.0/app-release.apk">
+<br><a href="https://github.com/Shubh499-dev/Lifeguard-site/releases/download/v1.0.0/app-release.apk
 <strong>📥 DOWNLOAD APK</strong>
 </a>   |   
 
