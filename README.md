@@ -1,4 +1,9 @@
-<div align="center">🛡️ LifeGuard – Smart Life Organizer
+<div align="center">
+<img src="assets/lifeguard-logo.png" width="120" alt="LifeGuard Logo">
+
+<br><br>
+  
+  🛡️ LifeGuard – Smart Life Organizer
 
 Organize Your Life. Never Miss What Matters!
 
