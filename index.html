@@ -1,177 +1,320 @@
-<!DOCTYPE html>
-<html lang="hi">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LifeGuard – Smart Life Organizer</title>
-  <meta name="description" content="LifeGuard से अपने bills, warranty और expiry dates को आसानी से manage करें।">
+  <meta name="description" content="LifeGuard is an Android app to organize product warranties, bills, expiry dates, reminders and everyday activities.">
+
   <style>
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      color: #202124;
-      background: #f5f7fb;
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 1.6;
+      color: #1f2937;
+      background: #f4f7fb;
     }
     .container {
-      width: min(920px, 92%);
-      margin: auto;
+      width: min(100% - 32px, 1000px);
+      margin: 0 auto;
     }
-    header {
-      text-align: center;
-      padding: 32px 12px 20px;
+    header, section, footer {
+      background: #fff;
+      margin: 20px 0;
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 4px 18px rgba(15, 23, 42, .06);
     }
-    .logo {
-      width: 110px;
-      max-width: 40%;
-      height: auto;
+    header, .center { text-align: center; }
+    .logo { width: 120px; max-width: 40%; height: auto; }
+    h1, h2, h3 { line-height: 1.3; }
+    h1 { color: #123b72; }
+    h2 { color: #174b8c; margin-top: 0; }
+    .tagline { font-size: 1.15rem; font-weight: bold; }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin: 20px 0;
     }
-    h1 { margin: 12px 0 6px; color: #1456a0; }
-    h2 { color: #1456a0; margin-top: 28px; }
-    .subtitle { color: #555; }
-    .buttons { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin: 22px 0; }
     .button {
       display: inline-block;
-      padding: 12px 20px;
+      padding: 12px 18px;
       border-radius: 8px;
+      color: #fff;
       text-decoration: none;
       font-weight: bold;
-      background: #1769aa;
-      color: white;
     }
-    .button.secondary { background: #18864b; }
-    section {
-      background: white;
-      margin: 18px 0;
-      padding: 22px;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px #0000000b;
-    }
-    .screenshots {
+    .blue { background: #1677ff; }
+    .green { background: #16a34a; }
+    .badges { margin-top: 16px; }
+    .badges img { margin: 4px; }
+    .features, .screenshots {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
     }
-    .screenshots img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
+    .feature, .shot {
       border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 16px;
+      min-width: 0;
     }
-    .video-wrap { text-align: center; }
-    video { width: 100%; max-width: 680px; border-radius: 10px; }
-    .ad-slot {
-      margin: 22px auto;
-      padding: 12px;
-      min-height: 100px;
-      max-width: 728px;
-      text-align: center;
-      background: #fff;
-      border: 1px dashed #b8c1cc;
+    .video {
+      display: block;
+      width: min(100%, 360px);
+      margin: 20px auto;
+      border-radius: 12px;
+      background: #000;
+    }
+    .shot { text-align: center; }
+    .shot img {
+      display: block;
+      width: min(100%, 220px);
+      height: auto;
+      margin: 10px auto 0;
       border-radius: 8px;
-      color: #687385;
-      font-size: 13px;
     }
-    footer { text-align: center; padding: 24px 12px 36px; color: #555; }
-    footer a { color: #1456a0; }
+    .wide-image {
+      display: block;
+      width: min(100%, 500px);
+      height: auto;
+      margin: 16px auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow-wrap: anywhere;
+    }
+    th, td {
+      border: 1px solid #dbe3ee;
+      padding: 10px;
+      text-align: left;
+    }
+    th { background: #eef4fb; }
+    ol { padding-left: 24px; }
+    footer { text-align: center; }
+
+    /* Adsterra ad slot styling */
+    .ad-slot {
+      width: 100%;
+      max-width: 728px;
+      min-height: 100px;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      header, section, footer { padding: 18px; }
+      .features, .screenshots { grid-template-columns: 1fr; }
+      th, td { padding: 8px; }
+    }
   </style>
 </head>
 
 <body>
-  <header class="container">
-    <img class="logo" src="assets/lifeguard-logo.png" alt="LifeGuard Logo">
-    <h1>LifeGuard – Smart Life Organizer</h1>
-    <p class="subtitle">अपने bills, warranty और expiry dates को एक जगह व्यवस्थित रखें।</p>
-
-    <div class="buttons">
-      <a class="button" href="https://github.com/Shubh499-dev/Lifeguard-site/releases/download/v1.0.0/app-release.apk">
-        Download APK
-      </a>
-      <a class="button secondary" href="https://indusapp.store/7lytituh" target="_blank" rel="noopener">
-        Indus Appstore
-      </a>
-    </div>
-  </header>
-
   <main class="container">
-    <section>
-      <h2>LifeGuard की खास सुविधाएँ</h2>
-      <ul>
-        <li>Bills और warranty की जानकारी सुरक्षित रखें।</li>
-        <li>Product की expiry date और reminders manage करें।</li>
-        <li>ज़रूरी जानकारी एक ही जगह आसानी से देखें।</li>
-      </ul>
-    </section>
 
-    <!-- AD SLOT 1: यहाँ Adsterra का पहला बैनर कोड पेस्ट करें -->
-    <div class="ad-slot">
-      <strong>Advertisement</strong><br>
-      AD SLOT 1 — यहाँ Adsterra का पहला ad code डालें
-    </div>
+    <header>
+      <img class="logo" src="assets/lifeguard-logo.png" alt="LifeGuard Logo">
+      <h1>🛡️ LifeGuard – Smart Life Organizer</h1>
+      <p class="tagline">Organize Your Life. Never Miss What Matters!</p>
+      <p><strong>Your Everyday Organization Partner</strong></p>
+      <p>
+        A simple, smart and convenient Android application designed to help you
+        manage product warranties, bills, expiry dates, reminders and everyday
+        activities — all in one place.
+      </p>
 
-    <section>
-      <h2>ऐप का वीडियो</h2>
-      <div class="video-wrap">
-        <video controls playsinline preload="metadata"
-          poster="assets/thumbnail.jpg">
-          <source
-            src="https://github.com/Shubh499-dev/Lifeguard-site/raw/8e576f6e35ada3bc6e7a1e98dd35408ef83ec263/assets/videos/InShot_20260926_114529833.mp4"
-            type="video/mp4">
-          आपका ब्राउज़र वीडियो नहीं चला सकता।
-        </video>
-      </div>
-    </section>
-
-    <section>
-      <h2>ऐप के स्क्रीनशॉट</h2>
-      <div class="screenshots">
-        <img src="screenshots/home-screen.jpg" alt="LifeGuard Home Screen" loading="lazy">
-        <img src="screenshots/warranty-management.jpg" alt="Warranty Management" loading="lazy">
-        <img src="screenshots/billapplicatio.jpg" alt="Bill Application" loading="lazy">
-        <img src="screenshots/product-details.jpg" alt="Product Details" loading="lazy">
-        <img src="screenshots/expiry-tracking.jpg" alt="Expiry Tracking" loading="lazy">
-        <img src="screenshots/smart-reminders.jpg" alt="Smart Reminders" loading="lazy">
-        <img src="screenshots/last-done.jpg" alt="Last Done" loading="lazy">
-        <img src="screenshots/app-interface.jpg" alt="App Interface" loading="lazy">
-        <img src="screenshots/indus-appstore.jpg" alt="Indus Appstore Listing" loading="lazy">
-      </div>
-    </section>
-
-    <section>
-      <h2>ऐप डाउनलोड करें</h2>
-      <p>LifeGuard इस्तेमाल करने के लिए नीचे दिए गए बटन से डाउनलोड करें।</p>
       <div class="buttons">
-        <a class="button" href="https://github.com/Shubh499-dev/Lifeguard-site/releases/download/v1.0.0/app-release.apk">
-          Download APK
-        </a>
-        <a class="button secondary" href="https://indusapp.store/7lytituh" target="_blank" rel="noopener">
-          Indus Appstore
-        </a>
+        <a class="button blue" href="https://github.com/Shubh499-dev/Lifeguard-site/releases/download/v1.0.0/app-release.apk">⬇ Download APK</a>
+        <a class="button green" href="https://indusapp.store/7lytituh">Get on Indus Appstore</a>
       </div>
+
+      <div class="badges">
+        <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Platform Android">
+        <img src="https://img.shields.io/badge/Version-1.0.0-1677FF?style=flat-square" alt="Version 1.0.0">
+        <img src="https://img.shields.io/badge/Category-Productivity-8B5CF6?style=flat-square" alt="Category Productivity">
+      </div>
+    </header>
+
+    <section>
+      <h2>🌟 Welcome to LifeGuard</h2>
+      <p>
+        LifeGuard – Smart Life Organizer is an easy-to-use Android application
+        that helps you keep your important information organized and accessible.
+      </p>
+      <p>
+        Managing product warranties, keeping purchase bills, tracking expiry
+        dates and remembering everyday activities can sometimes become difficult.
+        LifeGuard brings these useful organization tools together in one
+        convenient application.
+      </p>
+      <p>
+        Whether you want to maintain household product records, organize
+        important bills or keep track of important dates, LifeGuard makes
+        everyday management simpler.
+      </p>
+
+      <h2>🎯 Our Goal</h2>
+      <p>
+        Our goal is to make everyday organization easier by bringing useful
+        tracking and management tools into one simple application.
+      </p>
     </section>
 
     <section>
-      <h2>ऐप की जानकारी</h2>
-      <p><strong>Package:</strong> com.shubh.lifeguard</p>
-      <p><strong>Version:</strong> 1.0.0</p>
-      <p><a href="https://digitalcashcounterprivacypolicy.blogspot.com/2026/09/privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a></p>
+      <h2>✨ Key Features</h2>
+      <p>Useful features designed to make everyday organization easier.</p>
+
+      <div class="features">
+        <article class="feature">
+          <h3>🛡️ Warranty Management</h3>
+          <p>Keep track of purchased products, purchase dates and warranty periods. Maintain organized warranty records for important products.</p>
+        </article>
+        <article class="feature">
+          <h3>🧾 Bill Management</h3>
+          <p>Keep important purchase bills and related information organized in one convenient place.</p>
+        </article>
+        <article class="feature">
+          <h3>📅 Expiry Tracking</h3>
+          <p>Maintain expiry date records and track important dates to stay organized.</p>
+        </article>
+        <article class="feature">
+          <h3>🔔 Smart Reminders</h3>
+          <p>Manage important dates and reminders to help you remember things that matter.</p>
+        </article>
+        <article class="feature">
+          <h3>🔄 Last Done Tracking</h3>
+          <p>Keep track of when an activity or task was last completed and maintain useful records.</p>
+        </article>
+        <article class="feature">
+          <h3>🎨 Simple User Interface</h3>
+          <p>Enjoy a clean, organized and user-friendly interface designed for a simple application experience.</p>
+        </article>
+      </div>
     </section>
 
-    <!-- AD SLOT 2: यहाँ Adsterra का दूसरा बैनर कोड पेस्ट करें -->
+    <!-- AD SLOT 1: Paste your complete Adsterra ad code here -->
     <div class="ad-slot">
-      <strong>Advertisement</strong><br>
-      AD SLOT 2 — यहाँ Adsterra का दूसरा ad code डालें
+      <!-- Replace this comment with the Adsterra code for the first ad -->
     </div>
-  </main>
+    <!-- END AD SLOT 1 -->
 
-  <footer>
-    <p>Developer:
-      <a href="https://github.com/Shubh499-dev" target="_blank" rel="noopener">
-        Shubh499-dev
-      </a>
-    </p>
-    <p>© 2026 LifeGuard</p>
-  </footer>
+    <section>
+      <h2 class="center">🎬 Watch LifeGuard in Action</h2>
+
+      <video class="video" controls playsinline preload="metadata" poster="assets/thumbnail.jpg">
+        <source src="https://github.com/Shubh499-dev/Lifeguard-site/raw/8e576f6e35ada3bc6e7a1e98dd35408ef83ec263/assets/videos/InShot_20260926_114529833.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <h2 class="center">📱 App Screenshots</h2>
+      <p class="center">Explore the LifeGuard application interface and discover its useful features.</p>
+
+      <div class="screenshots">
+        <div class="shot">🏠 Home Screen
+          <img src="screenshots/home-screen.jpg" alt="LifeGuard Home Screen">
+        </div>
+        <div class="shot">🛡️ Warranty Management
+          <img src="screenshots/warranty-management.jpg" alt="Warranty Management">
+        </div>
+        <div class="shot">🧾 Bill Management
+          <img src="screenshots/billapplicatio.jpg" alt="Bill Management">
+        </div>
+        <div class="shot">📦 Product Details
+          <img src="screenshots/product-details.jpg" alt="Product Details">
+        </div>
+        <div class="shot">📅 Expiry Tracking
+          <img src="screenshots/expiry-tracking.jpg" alt="Expiry Tracking">
+        </div>
+        <div class="shot">🔔 Smart Reminders
+          <img src="screenshots/smart-reminders.jpg" alt="Smart Reminders">
+        </div>
+        <div class="shot">🔄 Last Done Tracking
+          <img src="screenshots/last-done.jpg" alt="Last Done Tracking">
+        </div>
+        <div class="shot">✨ App Interface
+          <img src="screenshots/app-interface.jpg" alt="LifeGuard App Interface">
+        </div>
+      </div>
+    </section>
+
+    <section class="center">
+      <h2>📥 Download LifeGuard</h2>
+      <p>Ready to make your everyday organization easier?</p>
+      <p>Download LifeGuard and explore its useful tracking and management features.</p>
+
+      <div class="buttons">
+        <a class="button blue" href="https://github.com/Shubh499-dev/Lifeguard-site/releases/download/v1.0.0/app-release.apk">⬇ Download for Android</a>
+        <a class="button green" href="https://indusapp.store/7lytituh">Get it on Indus Appstore</a>
+      </div>
+
+      <img class="wide-image" src="screenshots/indus-appstore.jpg" alt="LifeGuard on Indus Appstore">
+    </section>
+
+    <section>
+      <h2>📋 App Information</h2>
+      <table>
+        <tr><th>Information</th><th>Details</th></tr>
+        <tr><td>Application Name</td><td>LifeGuard – Smart Life Organizer</td></tr>
+        <tr><td>Package Name</td><td><code>com.shubh.lifeguard</code></td></tr>
+        <tr><td>Current Version</td><td>1.0.0</td></tr>
+        <tr><td>Platform</td><td>Android</td></tr>
+        <tr><td>Application Format</td><td>APK</td></tr>
+        <tr><td>Category</td><td>Productivity / Utilities</td></tr>
+        <tr><td>Developer</td><td>Shubh499-dev</td></tr>
+        <tr><td>Distribution</td><td>GitHub &amp; Indus Appstore</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>📲 How to Install LifeGuard</h2>
+      <p>Follow these simple steps to install the application on your Android device.</p>
+      <ol>
+        <li><strong>Download:</strong> Download the LifeGuard APK using the official download button.</li>
+        <li><strong>Open APK:</strong> Locate the downloaded APK file on your Android device.</li>
+        <li><strong>Allow Installation:</strong> If Android asks for permission to install apps from this source, allow it.</li>
+        <li><strong>Install:</strong> Tap the Install button and wait for installation to complete.</li>
+        <li><strong>Open the App:</strong> Launch LifeGuard from your device’s application list.</li>
+        <li><strong>Start Organizing:</strong> Explore the available features and organize your important information.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>🔐 Privacy &amp; Security</h2>
+      <p>Your privacy matters. We encourage every user to review the LifeGuard Privacy Policy to understand the application's data practices and advertising-related information.</p>
+      <p class="center">
+        <a class="button blue" href="https://digitalcashcounterprivacypolicy.blogspot.com/2026/09/privacy-policy.html">Read Privacy Policy</a>
+      </p>
+    </section>
+
+    <section class="center">
+      <h2>👨‍💻 About the Developer</h2>
+      <p>Developed with ❤️ by Shubh499-dev</p>
+      <p>Creating useful digital tools and simple application experiences.</p>
+      <a class="button blue" href="https://github.com/Shubh499-dev">GitHub – Shubh499-dev</a>
+    </section>
+
+    <footer>
+      <h2>⭐ Thank You!</h2>
+      <p>Thank you for visiting the LifeGuard project.</p>
+      <p>We appreciate your interest and support.</p>
+      <p>If you find LifeGuard useful, share it with your friends and family.</p>
+      <strong>🛡️ LifeGuard</strong>
+      <p>Organize Your Life. Never Miss What Matters!</p>
+      <p>Made with ❤️ for a more organized everyday life.</p>
+      <small>© 2026 Shubh499-dev. All Rights Reserved.</small>
+    </footer>
+
+    <!-- AD SLOT 2: Paste your complete Adsterra ad code here -->
+    <div class="ad-slot">
+      <!-- Replace this comment with the Adsterra code for the second ad -->
+    </div>
+    <!-- END AD SLOT 2 -->
+
+  </main>
 </body>
 </html>
