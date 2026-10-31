@@ -75,7 +75,7 @@ LifeGuard comes with several useful features designed to make everyday organizat
 <br>
 
   
-**📱 App Screenshots**
+<strong>📱 App Screenshots</strong>
 
 <br>
 
