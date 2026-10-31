@@ -21,7 +21,7 @@ A simple, smart and convenient Android application designed to help you manage p
 <img src="https://img.shields.io/badge/Version-1.0.0-1677FF?style=flat-square">
 <img src="https://img.shields.io/badge/Category-Productivity-8B5CF6?style=flat-square"></div>---
 
-🌟 Welcome to LifeGuard
+**🌟 Welcome to LifeGuard**
 
 LifeGuard – Smart Life Organizer is an easy-to-use Android application that helps you keep your important information organized and accessible.
 
@@ -31,13 +31,13 @@ LifeGuard brings these useful organization tools together in one convenient appl
 
 Whether you want to maintain household product records, organize important bills or keep track of important dates, LifeGuard makes everyday management simpler.
 
-🎯 Our Goal
+**🎯 Our Goal**
 
 Our goal is to make everyday organization easier by bringing useful tracking and management tools into one simple application.
 
 ---
 
-✨ Key Features
+**✨ Key Features**
 
 LifeGuard comes with several useful features designed to make everyday organization easier.
 
@@ -73,8 +73,10 @@ LifeGuard comes with several useful features designed to make everyday organizat
 </video>
 
 <br>
+
   
-📱 App Screenshots
+**📱 App Screenshots**
+
 <br>
 
 Explore the LifeGuard application interface and discover its useful features.
@@ -110,8 +112,10 @@ Explore the LifeGuard application interface and discover its useful features.
 <img src="screenshots/app-interface.jpg" width="220" alt="LifeGuard App Interface"></td>
 </tr>
 </table>---
+<br>
 
-📥 Download LifeGuard
+**📥 Download LifeGuard**
+<br>
 
 Ready to make your everyday organization easier?
 
@@ -120,7 +124,7 @@ Download LifeGuard and explore its useful tracking and management features.
 <div align="center">
   
   
-  📱 Download for Android
+  **📱 Download for Android**
 <br>
 <a href="https://github.com/Shubh499-dev/Lifeguard-site/releases/download/v1.0.0/app-release.apk">
 <img src="https://img.shields.io/badge/⬇_DOWNLOAD_APK-Download_Now-1677FF?style=for-the-badge&logo=android&logoColor=white" alt="Download LifeGuard APK">
@@ -132,7 +136,7 @@ Download LifeGuard and explore its useful tracking and management features.
 <br>
 <br>
   
-  Available on Indus Appstore
+  **Available on Indus Appstore**
 <br>
 <a href="https://indusapp.store/7lytituh">
 <img src="https://img.shields.io/badge/GET_IT_ON-INDUS_APPSTORE-16A34A?style=for-the-badge" alt="Indus Appstore">
