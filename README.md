@@ -66,6 +66,13 @@ LifeGuard comes with several useful features designed to make everyday organizat
 </tr>
 </table>---
 
+<h2>🎬 Watch LifeGuard in Action</h2>
+
+<video width="320" controls playsinline>
+  <source src="assets/videos/lifeguard-demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<br>
 📱 App Screenshots
 
 Explore the LifeGuard application interface and discover its useful features.
