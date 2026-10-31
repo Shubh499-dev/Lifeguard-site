@@ -65,12 +65,15 @@ LifeGuard comes with several useful features designed to make everyday organizat
 </td>
 </tr>
 </table>---
+
 <div style="text-align: center;">
 <video controls playsinline
        style="width:100%; max-width:360px; aspect-ratio:9/16;">
   <source src="https://github.com/Shubh499-dev/Lifeguard-site/raw/8e576f6e35ada3bc6e7a1e98dd35408ef83ec263/assets/videos/InShot_20260926_114529833.mp4" type="video/mp4">
 </video>
-</br>
+
+<br>
+  
 📱 App Screenshots
 
 Explore the LifeGuard application interface and discover its useful features.
