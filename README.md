@@ -114,7 +114,7 @@ Explore the LifeGuard application interface and discover its useful features.
 </table>---
 <br>
 
-**📥 Download LifeGuard**
+<strong>📥 Download LifeGuard</strong>
 <br>
 
 Ready to make your everyday organization easier?
@@ -142,7 +142,7 @@ Download LifeGuard and explore its useful tracking and management features.
 <img src="https://img.shields.io/badge/GET_IT_ON-INDUS_APPSTORE-16A34A?style=for-the-badge" alt="Indus Appstore">
 </a></div>---
 
-📋 App Information
+<strong>📋 App Information</strong>
 
 App Details| Information
 Application Name| LifeGuard – Smart Life Organizer
@@ -156,7 +156,7 @@ Distribution| GitHub & Indus Appstore
 
 ---
 
-📲 How to Install LifeGuard
+**📲 How to Install LifeGuard**
 
 Follow these simple steps to install the application on your Android device.
 
@@ -186,7 +186,7 @@ Explore the available features and organize your important information.
 
 ---
 
-🔐 Privacy & Security
+**🔐 Privacy & Security**
 
 Your privacy matters.
 
@@ -196,7 +196,7 @@ We encourage every user to review the LifeGuard Privacy Policy to understand the
 <img src="https://img.shields.io/badge/READ_PRIVACY_POLICY-1677FF?style=for-the-badge" alt="Read Privacy Policy">
 </a></div>---
 
-👨‍💻 About the Developer
+**👨‍💻 About the Developer**
 
 <div align="center">Developed with ❤️ by Shubh499-dev
 
@@ -206,7 +206,7 @@ Creating useful digital tools and simple application experiences.
 <img src="https://img.shields.io/badge/GitHub-Shubh499--dev-181717?style=for-the-badge&logo=github&logoColor=white" alt="Developer GitHub">
 </a></div>---
 
-⭐ Thank You!
+**⭐ Thank You!**
 
 Thank you for visiting the LifeGuard project.
 
