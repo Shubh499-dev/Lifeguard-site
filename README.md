@@ -145,7 +145,7 @@ Download LifeGuard and explore its useful tracking and management features.
 </a></div>---
 
 <strong>📋 App Information</strong>
-
+<br>
 App Details| Information
 Application Name| LifeGuard – Smart Life Organizer
 Package Name| "com.shubh.lifeguard"
@@ -157,9 +157,9 @@ Developer| Shubh499-dev
 Distribution| GitHub & Indus Appstore
 
 ---
-
+<br>
 <strong>📲 How to Install LifeGuard</strong>
-
+<br>
 Follow these simple steps to install the application on your Android device.
 
 Step 1: Download
