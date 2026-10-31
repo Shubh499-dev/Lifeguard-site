@@ -117,11 +117,13 @@ Download LifeGuard and explore its useful tracking and management features.
 <img src="https://img.shields.io/badge/⬇_DOWNLOAD_APK-Download_Now-1677FF?style=for-the-badge&logo=android&logoColor=white" alt="Download LifeGuard APK">
 </a><br><br>
 
+
 <img src="screenshots/indus-appstore.jpg" width="500" alt="LifeGuard on Indus Appstore">
 
 
 
-Available on Indus Appstore
+  
+  Available on Indus Appstore
 
 <a href="https://indusapp.store/7lytituh">
 <img src="https://img.shields.io/badge/GET_IT_ON-INDUS_APPSTORE-16A34A?style=for-the-badge" alt="Indus Appstore">
