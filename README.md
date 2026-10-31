@@ -67,8 +67,9 @@ LifeGuard comes with several useful features designed to make everyday organizat
 </table>---
 
 <div style="text-align: center;">
-<video controls playsinline
-       style="width:100%; max-width:360px; aspect-ratio:9/16;">
+<video width="320" controls playsinline
+  poster="assets/thumbnail.jpg"
+  style="display:block; margin:0 auto; max-width:100%;">
   <source src="https://github.com/Shubh499-dev/Lifeguard-site/raw/8e576f6e35ada3bc6e7a1e98dd35408ef83ec263/assets/videos/InShot_20260926_114529833.mp4" type="video/mp4">
 </video>
 
