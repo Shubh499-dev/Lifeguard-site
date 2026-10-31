@@ -3,7 +3,7 @@
 
 <br><br>
   
-  **🛡️ LifeGuard – Smart Life Organizer**
+  <strong>🛡️ LifeGuard – Smart Life Organizer</strong>
 
 Organize Your Life. Never Miss What Matters!
 
@@ -147,32 +147,36 @@ Download LifeGuard and explore its useful tracking and management features.
 
 <strong>📋 App Information</strong>
 <br>
-## 📱 App Details
+<h2>📱 App Details</h2>
 
-| Information | Details |
-|---|---|
-| Application Name | LifeGuard – Smart Life Organizer |
-| Package Name | `com.shubh.lifeguard` |
-| Current Version | 1.0.0 |
-| Platform | Android |
-| Application Format | APK |
-| Category | Productivity / Utilities |
-| Developer | Shubh499-dev |
-| Distribution | GitHub & Indus Appstore |
+<table>
+  <tr><th>Information</th><th>Details</th></tr>
+  <tr><td>Application Name</td><td>LifeGuard – Smart Life Organizer</td></tr>
+  <tr><td>Package Name</td><td><code>com.shubh.lifeguard</code></td></tr>
+  <tr><td>Current Version</td><td>1.0.0</td></tr>
+  <tr><td>Platform</td><td>Android</td></tr>
+  <tr><td>Application Format</td><td>APK</td></tr>
+  <tr><td>Category</td><td>Productivity / Utilities</td></tr>
+  <tr><td>Developer</td><td>Shubh499-dev</td></tr>
+  <tr><td>Distribution</td><td>GitHub &amp; Indus Appstore</td></tr>
+</table>
 
----
+<hr>
 
-## 📲 How to Install LifeGuard
+<h2>📲 How to Install LifeGuard</h2>
 
-Follow these simple steps to install the application on your Android device.
+<p>Follow these simple steps to install the application on your Android device.</p>
 
-1. **Download:** Download the LifeGuard APK using the official download button.
-2. **Open APK:** Locate the downloaded APK file on your Android device.
-3. **Allow Installation:** If Android asks for permission to install apps from this source, allow it.
-4. **Install:** Tap the **Install** button and wait for the installation to complete.
-5. **Open the App:** Launch LifeGuard from your device’s application list.
-6. **Start Organizing:** Explore the available features and organize your important information.
+<ol>
+  <li><strong>Download:</strong> Download the LifeGuard APK using the official download button.</li>
+  <li><strong>Open APK:</strong> Locate the downloaded APK file on your Android device.</li>
+  <li><strong>Allow Installation:</strong> If Android asks for permission to install apps from this source, allow it.</li>
+  <li><strong>Install:</strong> Tap the Install button and wait for the installation to complete.</li>
+  <li><strong>Open the App:</strong> Launch LifeGuard from your device’s application list.</li>
+  <li><strong>Start Organizing:</strong> Explore the available features and organize your important information.</li>
+</ol>
 
+<hr>
 
 ---
 
